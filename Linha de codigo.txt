@@ -1,2 +1,13 @@
-Olá, meu nome é Douglas
-Moro no Brasil
+git status = Mostra o status dos arquivos atuais, se estão reconhecidos ou não
+git commit --m "nome da versão" = Usamos esse comando pra informar que o arquivo teve uma nova versão e escolhemos o nome dessa versão para sabermos do que essa alteração se trata.
+git push = sobe o código para o banch criado no github
+git add . = reconhece todos os arquivos da pasta e deixa-os pronto para subir no github
+git reflog = Mostra todas as versões dos arquivos
+git reset --hard (nome da versão informada no comando reflog) = comando utilizado para voltar para a versão escolhida
+git branch = Mostra todos os branch disponíveis
+git branch (nome do novo branch) = comando utilizado para criar um novo branch
+git checkout (nome do branch que quer trabalhar) = comando utilizado para alterar entre as branch que deseja trabalhar
+git merge (nome do branch que deseja juntar com o atual) = Comando utilizado para juntar duas versões em branch diferentes do mesmo arquivo
+
+Branch = Caminho diferente para armazenar atualizações do código, utilizado normalmente para manter um arquivo que esta funcionando e outro que esta sendo modificado
+Merge = Juntar dois códigos em um só
